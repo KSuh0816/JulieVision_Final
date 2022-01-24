@@ -8,7 +8,6 @@ setBatchMode(true);
 
 // Show the user a dialog to select a directory of images
 inputDirectory = getDirectory("Choose a Directory of Images");
-
 // Get the list of files from that directory
 // NOTE: if there are non-image files in this directory, it may cause the macro to crash
 fileList = getFileList(inputDirectory);
@@ -22,7 +21,7 @@ setBatchMode(false); // Now disable BatchMode since we are finished
 updateResults();  // Update the results table so it shows the filenames
 
 // Show a dialog to allow user to save the results file
-outputFile = inputDirectory + "Ecad Result.csv";
+outputFile = inputDirectory + "2021_11_23_FUCCI_Result.csv";
 // Save the results data
 saveAs("results",outputFile);
 

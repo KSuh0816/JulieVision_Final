@@ -10,4 +10,4 @@
 module load anaconda3
 module load cudnn/cuda-10.1
 source activate tf-gpu
-python process_images_wo_stats.py
+python process_new_stacks_1.py
